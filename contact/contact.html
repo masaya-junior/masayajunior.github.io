@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>正也 ジュニ | CONTACT</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" media="screen and (min-width: 1000px)" href="../contact/contact.css">
+    <link rel="stylesheet" media="screen and (max-width: 992px)" href="../contact/contactMobile.css">
+</head>
+<body>
+    
+    <nav>
+        <div id="newNav">
+            <a href="../index.html" id="Home" class="navigation"> HOME</a>
+            <a href="../audio (=homepage)/audio.html" id="Audio" class="navigation">AUDIO</a>
+            <a href="../visual/visual.html" id="Visual" class="navigation">VISUAL</a>
+            <a href="../about/about.html" id="About" class="navigation">ABOUT</a>
+            <a href="../contact/contact.html" id="Contact">CONTACT</a>
+        </div>
+        <aside id="contactMenu">
+            <a href="https://soundcloud.com/masayajunior/" target="soundcloud" id="soundcloudLink"></a>
+            <a href="https://open.spotify.com/artist/75xEQ1MY4vA7mtfgbWzemm?si=QT17-TVYRUmVW8hga8a_UQ" target="spotify" id="spotifyLink"></a>
+            <a href="https://music.apple.com/us/artist/masaya-junior/1525661169" target="appleMusic" id="appleMusicLink"></a>
+            <a href="https://instagram.com/masayajunior" target="instagram" id="instagramLink"></a>
+            <a href="https://twitch.com/masayajunior" target="twitch" id="twitchLink"></a>
+        </aside>
+        <div class="menu-box" id="menu-1">&#9776</div>
+        <a href="../index.html" id="mobileName">MASAYA JUNIOR</a>
+        <div id="newHeaderContainer">
+            <div id="newHeader">
+                <a href="../index.html" id="name">MASAYA </a>
+                <a href="../index.html" id="logo"></a>
+                <a href="../index.html" id="lastName">JUNIOR </a>
+            </div>
+        </div>
+    </nav>
+    
+    <aside id="big-menu" class="mobileOnly">
+        <a href="../index.html" id="HomeMobile" class="navigation"> HOME</a> 
+        <a href="../index.html" class="navigation">AUDIO</a>
+        <a href="../visual/visual.html" id="VisualMobile" class="navigation">VISUAL</a>
+        <a href="../about/about.html" id="AboutMobile" class="navigation">ABOUT</a>
+        <a href="../contact/contact.html" id="ContactMobile" class="navigation">CONTACT</a>
+        <!-- <div id="ContactMobile" class="navigation">CONTACT</div> -->
+        <aside id="contactMenuMobile">
+            <div class="socialsRow" id="socialsRowOne">
+                <a href="https://soundcloud.com/masayajunior/" target="soundcloud">
+                    <img class="icon" src="../icons/icons8-soundcloud-100 copy.png"></img>
+                </a>
+                <a href="https://open.spotify.com/artist/75xEQ1MY4vA7mtfgbWzemm?si=QT17-TVYRUmVW8hga8a_UQ" target="spotify">
+                    <img class="icon" src="../icons/icons8-spotify-100 copy.png"></img>
+                </a>
+                <a href="https://music.apple.com/us/artist/masaya-junior/1525661169" target="appleMusic">
+                    <img class="icon" src="../icons/icons8-itunes-100 copy.png"></img>
+                </a>
+            </div>
+            <div class="socialsRow" id="socialsRowTwo">
+                <a href="https://instagram.com/masayajunior" target="instagram">
+                    <img class="icon" src="../icons/icons8-instagram-100 copy.png"></img>
+                </a>
+                <a href="https://twitch.com/masayajunior" target="twitch">
+                    <img class="icon" src="../icons/icons8-twitch-100 copy.png"></img>
+                </a>
+                <!-- <a href="../contact/contact.html" target="mail">
+                    <img class="icon" src="../icons/icons8-important-mail-white copy.png"></img>
+                </a> -->
+            </div>
+        </aside>
+        <div class="button" id="big-menu-close"></div>
+    </aside>   
+
+    <form class="contact-form" action="contactform.php" method="post">
+        <div id="subjectContainer">
+            <label for="subject">SUBJECT</label> <br>
+            <input class="contactInput" id="subject" name="subject" type="text">
+        </div>
+        <br>
+        <br>
+        <div id="contactName">
+            <div id="firstAndLast">
+                <div class="nameLabelContainer">
+                    <label id="firstNameLabel" for="firstName">FIRST NAME</label>  
+                </div>
+                <div class="nameLabelContainer">
+                 <label id="lastNameLabel"  for="lastName">LAST NAME</label>  
+                </div>
+            </div>
+            <div id="nameInputContainer">
+                <input class="nameInput" id="contactFirstName" name="contactFirstName" type="text">
+                <input class="nameInput" id="contactLastName" name="contactLastName" type="text">
+            </div>
+        </div>
+        <br>
+        <br>
+        <div> <label for="mail">EMAIL</label>
+             <br>
+            <input class="contactInput" id="mail" name="mail" type="text">
+        </div>
+        <br>
+        <br>
+        <div> <label for="message">MESSAGE</label>
+             <br>
+             <textarea class="contactMessage" name="message" id="message"></textarea> 
+        </div>
+        <div class="desktopLineBreak">
+            <br>
+        </div>
+        <br>
+        <br>
+        <div id="submitContainer">
+            <div id="submit">SUBMIT</div>
+        </div>
+    </form>
+  
+    <footer>
+        <div id="socials"></div>
+        <p>Copyright © 2020 MASAYA JUNIOR.</p> 
+        <p>All rights reserved.</p>
+    </footer>
+
+    <script src="../contact/contact.js"></script>
+</body>
+</html>

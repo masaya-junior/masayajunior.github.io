@@ -1,0 +1,25 @@
+body {
+    background-color: white;
+}
+
+.show {
+    display: block;
+}
+.hide {
+    display:none;
+}
+
+.relevant {
+    height: 10vh;
+    width: 10vh;
+    border: 2px solid black;
+}
+
+#one {
+    background-color: red;
+}
+
+#two {
+    background-color: green;
+}
+

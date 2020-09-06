@@ -1,0 +1,533 @@
+@import url(https://github.com/GuillaumeHorikawa/GuillaumeHorikawa.github.io/blob/master/fonts/Gotham-Bold.ttf);
+@import url(https://github.com/GuillaumeHorikawa/GuillaumeHorikawa.github.io/blob/master/fonts/Gotham-Bold.woff);
+@import url(https://github.com/GuillaumeHorikawa/GuillaumeHorikawa.github.io/blob/master/fonts/Gotham-Bold.woff2);
+@import url(https://github.com/GuillaumeHorikawa/GuillaumeHorikawa.github.io/blob/master/fonts/Gotham-Book.ttf);
+@import url(https://github.com/GuillaumeHorikawa/GuillaumeHorikawa.github.io/blob/master/fonts/Gotham-Book.woff);
+@import url(https://github.com/GuillaumeHorikawa/GuillaumeHorikawa.github.io/blob/master/fonts/Gotham-Book.woff2);
+@import url(https://github.com/GuillaumeHorikawa/GuillaumeHorikawa.github.io/blob/master/fonts/Gotham-Medium.ttf);
+@import url(https://github.com/GuillaumeHorikawa/GuillaumeHorikawa.github.io/blob/master/fonts/Gotham-Medium.woff);
+@import url(https://github.com/GuillaumeHorikawa/GuillaumeHorikawa.github.io/blob/master/fonts/Gotham-Medium.woff2);
+@import url(https://github.com/GuillaumeHorikawa/GuillaumeHorikawa.github.io/blob/master/fonts/Gotham-Light.ttf);
+@import url(https://github.com/GuillaumeHorikawa/GuillaumeHorikawa.github.io/blob/master/fonts/Gotham-Light.woff);
+@import url(https://github.com/GuillaumeHorikawa/GuillaumeHorikawa.github.io/blob/master/fonts/Gotham-Light.woff2);
+/* @import url(https://github.com/codeforamerica/schoolselection/blob/master/public/fonts/Gotham-Bold.otf);
+@import url(https://github.com/codeforamerica/schoolselection/blob/master/public/fonts/Gotham-Book.otf);
+@import url(https://github.com/codeforamerica/schoolselection/blob/master/public/fonts/Gotham-Light.otf);
+@import url(https://github.com/codeforamerica/schoolselection/blob/master/public/fonts/Gotham-Medium.otf);
+@import url(https://github.com/codeforamerica/schoolselection/blob/master/public/fonts/Gotham-Thin.otf);
+@import url(https://github.com/codeforamerica/schoolselection/blob/master/public/fonts/Gotham-Ultra.otf); */
+
+/* @font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham-BlackItalic.woff2') format('woff2'),
+        url('../fonts/Gotham-BlackItalic.woff') format('woff'),
+        url('../fonts/Gotham-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham-Black.woff2') format('woff2'),
+        url('../fonts/Gotham-Black.woff') format('woff'),
+        url('../fonts/Gotham-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham-BoldItalic.woff2') format('woff2'),
+        url('../fonts/Gotham-BoldItalic.woff') format('woff'),
+        url('../fonts/Gotham-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham-LightItalic.woff2') format('woff2'),
+        url('../fonts/Gotham-LightItalic.woff') format('woff'),
+        url('../fonts/Gotham-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham-MediumItalic.woff2') format('woff2'),
+        url('../fonts/Gotham-MediumItalic.woff') format('woff'),
+        url('../fonts/Gotham-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham-Light.woff2') format('woff2'),
+        url('../fonts/Gotham-Light.woff') format('woff'),
+        url('../fonts/Gotham-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham-Thin.woff2') format('woff2'),
+        url('../fonts/Gotham-Thin.woff') format('woff'),
+        url('../fonts/Gotham-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham-Medium.woff2') format('woff2'),
+        url('../fonts/Gotham-Medium.woff') format('woff'),
+        url('../fonts/Gotham-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham Book';
+    src: url('../fonts/Gotham-Book.woff2') format('woff2'),
+        url('../fonts/Gotham-Book.woff') format('woff'),
+        url('../fonts/Gotham-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham-Bold.woff2') format('woff2'),
+        url('../fonts/Gotham-Bold.woff') format('woff'),
+        url('../fonts/Gotham-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham Book';
+    src: url('../fonts/Gotham-BookItalic.woff2') format('woff2'),
+        url('../fonts/Gotham-BookItalic.woff') format('woff'),
+        url('../fonts/Gotham-BookItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham-ThinItalic.woff2') format('woff2'),
+        url('../fonts/Gotham-ThinItalic.woff') format('woff'),
+        url('../fonts/Gotham-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham Ultra';
+    src: url('../fonts/Gotham-Ultra.woff2') format('woff2'),
+        url('../fonts/Gotham-Ultra.woff') format('woff'),
+        url('../fonts/Gotham-Ultra.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham Extra';
+    src: url('../fonts/Gotham-ExtraLight.woff2') format('woff2'),
+        url('../fonts/Gotham-ExtraLight.woff') format('woff'),
+        url('../fonts/Gotham-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham Extra';
+    src: url('../fonts/Gotham-ExtraLightItalic.woff2') format('woff2'),
+        url('../fonts/Gotham-ExtraLightItalic.woff') format('woff'),
+        url('../fonts/Gotham-ExtraLightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham Ultra';
+    src: url('../fonts/Gotham-UltraItalic.woff2') format('woff2'),
+        url('../fonts/Gotham-UltraItalic.woff') format('woff'),
+        url('../fonts/Gotham-UltraItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+} */
+
+body {
+    display: block;
+    font-family: 'Gotham', sans-serif;
+    background-size: cover;
+    background-position: center;
+}
+
+
+a {
+    color: black;
+    text-decoration: none;
+    transition: .2s ease-in-out;
+}
+
+nav {
+    margin: 2vh;
+    margin-left: 15vh;
+    margin-right: 15vh;
+    height: 15vh;
+    flex-basis: 25%;
+    display: flex;
+    font-weight: 400;
+    font-size: 13px;
+    padding-bottom: 0vh;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(233, 233, 233);
+}
+
+#newNav {
+    display: flex;
+    width: 35vh;
+    justify-content: space-between;
+    font-weight: 300;
+    font-size: 1.5vh;
+    z-index: 10;
+}
+
+a:hover {
+    color: rgb(72, 114, 170);
+}
+
+#newHeaderContainer {
+    position: absolute; left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    z-index: 1;
+}
+
+#newHeader {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    /* border: 2px solid blue; */
+    font-weight: 600;
+    width: 32em;
+    font-size: 1.7vh;
+    padding-bottom: .3em;
+}
+
+
+#logo {
+    margin: 1vh;
+    width: 20%;
+    height: 10vh;
+    background-image: url(../images/logo.jpg);
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+}
+
+#logo:hover {
+    margin: 1vh;
+    width: 20%;
+    height: 10vh;
+    background-image: url(../images/logobluegrey.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#name {
+    width: 40%;
+    float: right;
+    text-align: right;
+}
+
+#lastName {
+    width: 40%;
+}
+
+#mobileName {
+    display: none;
+}
+
+.icon {
+    height: 5vh;
+}
+
+.menu-box {
+    display: none;
+}
+
+aside.mobileOnly {
+    display: none;
+}
+
+#contactMenu {
+    margin-left: -35vh;
+    transition: all .5s ease-in-out;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+    height: 15vh;
+    width: 25vh;
+    padding-bottom: 1vh;
+}
+
+#contactMenu a {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 3.5vh;
+    height: 3.5vh;
+    width: 4vh;
+    padding-top: .7vh;
+}
+#soundcloudLink {
+    background-image: url("../icons/icons8-soundcloud-100.png");
+}
+
+#soundcloudLink:hover {
+    background-image: url("../icons/icons8-soundcloud-100\ blue\ grey.png");
+}
+
+#spotifyLink {
+    background-image: url("../icons/icons8-spotify-100.png");
+}
+
+#spotifyLink:hover {
+    background-image: url("../icons/icons8-spotify-100\ blue\ grey.png");
+}
+
+#appleMusicLink {
+    background-image: url("../icons/icons8-itunes-100.png");
+}
+
+#appleMusicLink:hover {
+    background-image: url("../icons/icons8-itunes-100\ bluegrey.png");
+}
+
+#instagramLink {
+    background-image: url("../icons/icons8-instagram-100.png");
+}
+
+#instagramLink:hover {
+    background-image: url("../icons/icons8-instagram-100\ blue\ grey.png");
+}
+
+#twitchLink {
+    background-image: url("../icons/icons8-twitch-100.png");
+}
+
+
+#twitchLink:hover {
+    background-image: url("../icons/icons8-twitch-100\ bluegrey.png");
+}
+
+#Home {
+    border-bottom: 1px solid black;
+    transition: .2s ease-in-out;
+}
+
+#Home:hover, #Home:active {
+    border-bottom: 1px solid #537194;
+}
+
+/* //MAIN// */
+
+main {
+    flex-basis: 50%;
+    height: 115vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    margin-left: 15vh;
+    margin-right: 15vh;
+    font-size: 2vh;
+    font-weight: 400;
+    display: block;
+    justify-content: space-between;
+}
+
+hr {
+    display: none;
+}
+
+.contentRow {
+    display: flex;
+    justify-content: space-between;
+    margin: 0vh;
+    padding-bottom: 1vh;
+}
+
+.content {
+    height: 56vh;
+    width: 56vh;
+    /* border: 2px solid orange; */
+    border-radius: .1vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: fadein 2s;
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+
+.hoverable {
+    cursor:default;
+    color:white;
+    text-decoration:none;
+    position: absolute;
+    z-index: 3;
+}
+
+.hoverable .normal {
+    padding: 2vh;
+}
+
+.hoverable:hover .normal {
+    opacity: 0;
+    display: none;
+}
+
+.contentHover {
+    opacity: 0;
+    position: absolute; top: -9999px; left: -9999px;
+}
+
+.hoverable:hover .contentHover {
+    opacity: 1;  /* CHANGE IF FOR BLOCK ELEMENTS */
+    /* position: absolute; top: -7px; left: -10px; */
+    position: relative; top: 0vh; left: 0vh;
+    display: flex;
+    justify-content: center;
+    width: 20vh;
+}
+
+.hoverable a{
+    margin: 1vh;
+}
+
+
+.bottom {
+    opacity: 0; transition: opacity .7s ease-in-out;
+    height: 56vh;
+    /* position: absolute; */
+    z-index: 2;
+
+}
+
+.bottom:hover {
+    opacity: 1;
+}
+
+#contentOne {
+    background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ), url('../images/Compact\ Final.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#contentTwo {background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ), url('../images/Cherry Pie.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#contentThree {background: linear-gradient(
+    rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0.4)
+  ), url('../images/Untitled.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+
+}
+
+#contentFour {background: linear-gradient(
+    rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0.4)
+  ), url('../images/Mount Aso.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contentFive {background: linear-gradient(
+    rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0.4)
+  ), url('../images/MIX002notitle.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#contentSix {background: linear-gradient(
+    rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0.4)
+  ), url('../images/cranesinthesky.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* FOOTER */
+
+
+footer {
+    border-top: 1px solid rgb(233, 233, 233);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 2vh;
+    margin-left: 15vh;
+    margin-right: 15vh;
+    padding-top: 2vh;
+    font-size: 1.5vh;
+}
+
+footer p {
+    margin-right: .5em;
+}
+

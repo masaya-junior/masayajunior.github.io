@@ -1,0 +1,409 @@
+@import url(https://github.com/GuillaumeHorikawa/GuillaumeHorikawa.github.io/blob/master/fonts/Gotham-Bold.ttf);
+@import url(https://github.com/GuillaumeHorikawa/GuillaumeHorikawa.github.io/blob/master/fonts/Gotham-Bold.woff);
+@import url(https://github.com/GuillaumeHorikawa/GuillaumeHorikawa.github.io/blob/master/fonts/Gotham-Bold.woff2);
+@import url(https://github.com/GuillaumeHorikawa/GuillaumeHorikawa.github.io/blob/master/fonts/Gotham-Book.ttf);
+@import url(https://github.com/GuillaumeHorikawa/GuillaumeHorikawa.github.io/blob/master/fonts/Gotham-Book.woff);
+@import url(https://github.com/GuillaumeHorikawa/GuillaumeHorikawa.github.io/blob/master/fonts/Gotham-Book.woff2);
+@import url(https://github.com/GuillaumeHorikawa/GuillaumeHorikawa.github.io/blob/master/fonts/Gotham-Medium.ttf);
+@import url(https://github.com/GuillaumeHorikawa/GuillaumeHorikawa.github.io/blob/master/fonts/Gotham-Medium.woff);
+@import url(https://github.com/GuillaumeHorikawa/GuillaumeHorikawa.github.io/blob/master/fonts/Gotham-Medium.woff2);
+@import url(https://github.com/GuillaumeHorikawa/GuillaumeHorikawa.github.io/blob/master/fonts/Gotham-Light.ttf);
+@import url(https://github.com/GuillaumeHorikawa/GuillaumeHorikawa.github.io/blob/master/fonts/Gotham-Light.woff);
+@import url(https://github.com/GuillaumeHorikawa/GuillaumeHorikawa.github.io/blob/master/fonts/Gotham-Light.woff2);
+/* @import url(https://github.com/codeforamerica/schoolselection/blob/master/public/fonts/Gotham-Bold.otf);
+@import url(https://github.com/codeforamerica/schoolselection/blob/master/public/fonts/Gotham-Book.otf);
+@import url(https://github.com/codeforamerica/schoolselection/blob/master/public/fonts/Gotham-Light.otf);
+@import url(https://github.com/codeforamerica/schoolselection/blob/master/public/fonts/Gotham-Medium.otf);
+@import url(https://github.com/codeforamerica/schoolselection/blob/master/public/fonts/Gotham-Thin.otf);
+@import url(https://github.com/codeforamerica/schoolselection/blob/master/public/fonts/Gotham-Ultra.otf); */
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham-BlackItalic.woff2') format('woff2'),
+        url('../fonts/Gotham-BlackItalic.woff') format('woff'),
+        url('../fonts/Gotham-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham-Black.woff2') format('woff2'),
+        url('../fonts/Gotham-Black.woff') format('woff'),
+        url('../fonts/Gotham-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham-BoldItalic.woff2') format('woff2'),
+        url('../fonts/Gotham-BoldItalic.woff') format('woff'),
+        url('../fonts/Gotham-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham-LightItalic.woff2') format('woff2'),
+        url('../fonts/Gotham-LightItalic.woff') format('woff'),
+        url('../fonts/Gotham-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham-MediumItalic.woff2') format('woff2'),
+        url('../fonts/Gotham-MediumItalic.woff') format('woff'),
+        url('../fonts/Gotham-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham-Light.woff2') format('woff2'),
+        url('../fonts/Gotham-Light.woff') format('woff'),
+        url('../fonts/Gotham-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham-Thin.woff2') format('woff2'),
+        url('../fonts/Gotham-Thin.woff') format('woff'),
+        url('../fonts/Gotham-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham-Medium.woff2') format('woff2'),
+        url('../fonts/Gotham-Medium.woff') format('woff'),
+        url('../fonts/Gotham-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham Book';
+    src: url('../fonts/Gotham-Book.woff2') format('woff2'),
+        url('../fonts/Gotham-Book.woff') format('woff'),
+        url('../fonts/Gotham-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham-Bold.woff2') format('woff2'),
+        url('../fonts/Gotham-Bold.woff') format('woff'),
+        url('../fonts/Gotham-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham Book';
+    src: url('../fonts/Gotham-BookItalic.woff2') format('woff2'),
+        url('../fonts/Gotham-BookItalic.woff') format('woff'),
+        url('../fonts/Gotham-BookItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham-ThinItalic.woff2') format('woff2'),
+        url('../fonts/Gotham-ThinItalic.woff') format('woff'),
+        url('../fonts/Gotham-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham Ultra';
+    src: url('../fonts/Gotham-Ultra.woff2') format('woff2'),
+        url('../fonts/Gotham-Ultra.woff') format('woff'),
+        url('../fonts/Gotham-Ultra.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham Extra';
+    src: url('../fonts/Gotham-ExtraLight.woff2') format('woff2'),
+        url('../fonts/Gotham-ExtraLight.woff') format('woff'),
+        url('../fonts/Gotham-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham Extra';
+    src: url('../fonts/Gotham-ExtraLightItalic.woff2') format('woff2'),
+        url('../fonts/Gotham-ExtraLightItalic.woff') format('woff'),
+        url('../fonts/Gotham-ExtraLightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham Ultra';
+    src: url('../fonts/Gotham-UltraItalic.woff2') format('woff2'),
+        url('../fonts/Gotham-UltraItalic.woff') format('woff'),
+        url('../fonts/Gotham-UltraItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+body {
+    display: block;
+    font-family: 'Gotham', sans-serif;
+    -webkit-text-size-adjust: none;
+}
+
+a {
+    color: black;
+    text-decoration: none; /* no underline */
+}
+
+nav {
+    height: 5vh;
+    margin-left: 2vh;
+    margin-right: 2vh;
+    font-size: 1em;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #c7c7c7;
+    padding-bottom: 1vh;
+    
+}
+
+#newNav {
+    display: none;
+}
+
+#contactMenu {
+    display: none;
+}
+
+#newHeaderContainer {
+    display: none;
+}
+
+#mobileName {
+    display: flex;
+    vertical-align: middle;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+#menu-1 {
+    vertical-align: middle;
+    transition: 0.5s ease-in-out;
+    font-size: 1.1em;
+    font-weight: 600;
+    position: absolute;
+    display: flex;
+    vertical-align: middle;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding-bottom: .2em;
+}
+
+  
+#big-menu {
+    background-image: url(../images/Nagasaki.jpg);
+    background-size: 100vh;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    opacity: 0;
+    overflow-y: auto;
+    overflow-x: auto;
+    padding: 15px 15px;
+    position: fixed;
+    transition: all 0.35s ease-in-out;
+    transform: translateX(-100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 9;
+
+}
+
+#big-menu.toggle-open { 
+    transform: translateX(0%);
+    opacity: 1;
+}
+
+#big-menu a, #big-menu a:focus, #big-menu a:visited {
+    color: white;
+    display: block;
+    font-size: 1em;
+    margin: 25px auto;
+    text-align: center;
+    text-decoration: none;
+}
+
+#ContactMobile {
+    color: white;
+    display: block;
+    font-size: 1em;
+    margin: 25px auto;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#contactMenuMobile {
+    transition: all .5s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 10;
+    width: 35vh;
+    transform: translateY(-10%);
+    background-image: radial-gradient(
+        rgb(0,0,0,0), 
+        rgb(0, 0, 0, .2),  
+        rgb(0,0,0,0),
+        rgb(0,0,0,0)
+    );
+
+
+}
+#contactMenuMobile img {
+    height: 2em;
+    margin: 0;
+}
+
+.socialsRow a{
+    margin: 0;
+}
+
+
+#socialsRowOne {
+    width: 15em;
+    height: 4em;
+    padding-top: 0;
+    display: flex;
+}
+
+#socialsRowTwo {
+    width: 10em;
+    height: 4em;
+    display: flex;
+    justify-content: center;
+}
+
+
+#big-menu-close {
+    background-image: url('../icons/closewhite.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 4em;
+    width: 4em;
+    background-size: 1.5em;
+}
+
+/* MAIN */
+
+main {
+    /* height: 5vh; */
+    margin-left: 2vh;
+    margin-right: 2vh;
+    margin-top: 2vh;
+    font-weight: 300;
+    font-size: .9em;
+}
+
+#bio {
+    margin-bottom: 0vh;
+}
+
+#featuresAndPerformances {
+    border-bottom: 1px solid #c7c7c7;
+    border-top: 1px solid #c7c7c7;
+    margin-bottom: 3vh;
+}
+
+ul {
+    padding-top: 0vh;
+    margin-top: -2.4vh;
+    padding-left:0; 
+    list-style:none; 
+    /* border: 2px solid red; */
+}
+
+li {
+    list-style:none; 
+}
+
+#aboutHeadshot {
+    padding: 0;
+    height: 90vw;
+    background-image: url(../images/Tobyhanna2.jpg);
+    background-size: 130vw;
+    background-position-y: -4vh;
+    background-repeat: no-repeat;
+
+
+}
+
+/* FOOTER */
+
+footer {
+    border-top: 1px solid #c7c7c7;
+    margin-left: 2vh;
+    margin-right: 2vh;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 300;
+    margin-bottom: 2em;
+    margin-top: 1.2em;
+    padding-top: 1em;
+    height: 2em;
+}
+
+footer p {
+    margin: auto;
+}
+
+@media (min-aspect-ratio: 3/2) {
+    #big-menu {
+        background-size: 230vh;
+    }
+    #contactMenuMobile {
+        background-image: none;
+    }
+}
