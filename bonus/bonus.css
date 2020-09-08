@@ -181,12 +181,20 @@ body {
     display: block;
     font-family: 'Gotham', sans-serif;
     height: 400em; /* Used to enable scrolling */
-    background: linear-gradient(to bottom, #ffffff 0%, #ffffff 25%, #e73259 85%, red 95%);
+    background: linear-gradient(to bottom, #ffffff 0%, #ffffff 45%, #e73259 85%, red 95%);
     text-decoration: none;
     transition: opacity .8s ease-in-out;
     animation: fadein 2s;
     -webkit-animation: fadein 2s;
     overflow-x: hidden;
+    
+}
+
+body.warpFilter {
+    filter: brightness(60%) contrast(900%) grayscale(100%);
+    height: 200em;
+    /* background-image: url('../images/Tobyhanna2mobile.jpg'); */
+    background: linear-gradient(to bottom, #ececec 0%,#ececec 30%,#e73259 50%, red 100%);
 }
 
 @keyframes fadein {
@@ -212,6 +220,12 @@ a {
 #bonusHeader {
     margin-left: 68px;
     font-size: 51.4px;
+}
+
+#bonusHeader.toggle {
+    background-color: #ffffff;
+    color: white;
+    margin-left: 73px;
 }
 
 a:hover {
@@ -347,7 +361,7 @@ a:hover {
     left: 0;
     right: 0;
     color: rgba(255, 255, 255, 0);
-    top: 130vh;
+    top: 150vh;
     overflow: hidden;
 }
 #animationTest {
@@ -436,14 +450,6 @@ a:hover {
     z-index: 1;
 }
 
-#spinningCircleTwoStatic {
-    border: 8px solid red;
-    height: 200px;
-    width: 200px;
-    border-radius: 50%;
-    position: absolute;
-}
-
 @keyframes expand {
     0% {
     }
@@ -453,25 +459,60 @@ a:hover {
     }
   }
 
+#spinningCircleTwo.toggle {
+    border: 20px solid red; }
+
+#spinningCircleTwoStatic {
+border: 8px solid red;
+height: 200px;
+width: 200px;
+border-radius: 50%;
+position: absolute;
+}
+
 
 #arrowTriangle {
     width: 0; 
     height: 0; 
-    border-top: 1000px solid transparent;
-    border-bottom: 1000px solid transparent; 
+    border-top: 300px solid transparent;
+    border-bottom: 300px solid transparent; 
     position: absolute;
-    border-right:1000px solid rgb(255, 217, 0); 
-    top: 810px;
-    left: 408px;
-    transform: rotate(-45deg);
-    box-shadow: outset 2px 2px 2px rgba(255, 255, 255, .8), outset -2px -2px 2px rgba(0, 0, 0, .8);
+    border-right:300px solid rgb(248, 248, 248);
+    top: 1210px;
+    left: 90%;
+    right: 0;
+    transform: rotate(135deg);
+
   }
+
+#newTriangleContainer {
+    transform: rotate(45deg);
+    position: absolute;
+    top: 1170px;
+    left: -460px;
+}
+#newTriangle {
+    width:2030px;
+    height:2030px;
+    overflow:hidden;
+    /* border: 2px solid red; */
+}
+#newTriangle:before {
+    content:"";
+    display:block;
+    width:70%;
+    height:70%;
+    background-image: url(../images/yellowgraintexture.jpg);
+    background-size: 1000px ;
+    transform: rotate(-45deg);
+    transform-origin:0 0;
+}
 
 #structureBox {
     position: absolute;
     top: 749px;
     left: 554px;
-    height: 1410px;
+    height: 1415px;
     width: 1200px;
     border: 5px solid red;
     border-left: 5px solid #213387;
@@ -486,6 +527,7 @@ a:hover {
     width: 15px;
     top: 734px;
     left: 548px;
+    box-shadow: outset 10px 10px 10px rgba(255, 255, 255, .8), outset -10px -10px 10px rgba(0, 0, 0, .8);
     animation: circleTravel 6s linear infinite;
     animation-delay: 1s;
 }
@@ -500,20 +542,75 @@ a:hover {
     }
 }
 
+#kanji {
+    transform: rotate(-90deg) translateX(-790px) translateY(-195px);
+
+}
+
+#tobyhannaThree {
+    position: absolute;
+    top: 1790px;
+    left:178px;
+    height: 800px;
+    width: 200px;
+    background:
+    linear-gradient( to bottom,
+      rgba(255, 255, 255) 0%,
+      rgba(117, 117, 117, 0.2) 50%,
+      rgba(255, 255, 255)) 100%,
+    url('../images/Tobyhanna3.jpg');
+    background-size: 700px;
+    background-repeat: no-repeat;
+    filter: grayscale(100%);
+    transition: 1s ease-in-out;
+    opacity: 0;
+    z-index: 17;
+}
+
+#tobyhannaThree:hover {
+    opacity: 1;
+}
+
+
+#trigger {
+    position: absolute;
+    border-radius: 50%;
+    font-size: 100px;
+    font-weight: 600;
+    top: 440px;
+    left: 1224px;
+    z-index: 19;
+    color: #ffd900;
+    opacity: 0;
+    transition: opacity .1s ease-in-out;
+
+}
+
+#trigger:hover {
+    opacity: 1
+}
+
+#trigger.toggle {
+    font-size: 100px;
+    /* transform: translateY(-20px) translateX(-20px); */
+}
 
 
 #overlay {
-    position: fixed;
-    background-size: 80vh;
-    filter: brightness(100%);
-    filter: contrast(500%);
-    opacity: 1;
+    position: absolute;
+    background-size: 50vh;
+    background-image: url(../images/yellowgraintexture.jpg);
+    opacity: .5;
     bottom: 0;
     left: 0;
     right: 0;
     top: 0;
     height: 100%;
     width: 100%;
-    /* display: none; */
+    z-index: 15;
+    display: none;
+} 
 
+#overlay.toggle {
+    display: block;
 }
