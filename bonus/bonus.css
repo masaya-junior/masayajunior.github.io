@@ -375,12 +375,12 @@ opacity: .9;
     transform: scaleX(-1);
     /* transform: scaleY(-1); */
     bottom: 0;
-    left: -11vh;
+    left: -12vh;
     right: 0;
     top: 12.5vh;
     margin-left: 80px;
     height: 38.2vh;
-    width: 12.5vh;
+    width: 13.3vh;
     filter: grayscale(100%) brightness(70%);
 }
 
@@ -392,6 +392,8 @@ opacity: .9;
     opacity: .6;
 
 }
+
+#twitchBGTwo:hover {opacity: 0;}
 
 
 #bonusLogo {
