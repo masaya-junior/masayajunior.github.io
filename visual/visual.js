@@ -1,10 +1,5 @@
 
-
-
-if (screen && screen.width < 992) {
-    console.log('doodooa')
-}
-
+console.log('[MJR:GB:DJD:WA]')
 //MENU//
 
 document.getElementById('menu-1').addEventListener('click', function(){

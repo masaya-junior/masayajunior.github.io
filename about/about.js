@@ -1,9 +1,5 @@
 
-
-
-if (screen && screen.width < 992) {
-  console.log('doodooa')
-}
+console.log('[MJR:GB:DJD:WA]')
 
 //MENU//
 

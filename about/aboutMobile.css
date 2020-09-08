@@ -185,7 +185,7 @@ body {
 
 a {
     color: black;
-    text-decoration: none; /* no underline */
+    text-decoration: none;
 }
 
 nav {
@@ -362,7 +362,6 @@ ul {
     margin-top: -2.4vh;
     padding-left:0; 
     list-style:none; 
-    /* border: 2px solid red; */
 }
 
 li {

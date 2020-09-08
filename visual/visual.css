@@ -231,8 +231,6 @@ a:hover {
 #newHeader {
     display: flex;
     align-items: center;
-    /* justify-content: center; */
-    /* border: 2px solid blue; */
     font-weight: 600;
     width: 32em;
     font-size: 1.7vh;
@@ -355,6 +353,24 @@ aside.mobileOnly {
     border-bottom: 1px solid #537194;
 }
 
+#bonus {
+    position: fixed;
+    bottom:0 ;
+    left: 0;
+    right: 0;
+    top: 100;
+    opacity:0;
+    /* top: 20;
+    right: 0; */
+    height: 60px;
+    width: 60px;
+    background-color: red;
+    transition: 1s ease-in-out;
+}
+
+#bonus:hover {
+    opacity: 1;
+}
 /* //MAIN// */
 
 main {
@@ -388,21 +404,20 @@ main {
 }
 
 .image {
-    /* margin: 35vh; */
     height: 62em;
     background-size: 62em;
     background-repeat: no-repeat;
     background-position: center;
     transition: opacity .8s ease-in-out;
     animation: fadein 3s;
-    -webkit-animation: fadein 3s; /* Safari and Chrome */
+    -webkit-animation: fadein 3s;
 }
 
 @keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
 }
-@-webkit-keyframes fadein { /* Safari and Chrome */
+@-webkit-keyframes fadein {
     from {
         opacity:0;
     }

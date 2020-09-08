@@ -76,7 +76,7 @@
         <div class="button" id="big-menu-close"></div>
     </aside>   
 
-    <form class="contact-form" action="contactform.php" method="post">
+    <form id="contactForm" class="contact-form" action="contactform.php" method="post">
         <div id="subjectContainer">
             <label for="subject">SUBJECT</label> <br>
             <input class="contactInput" id="subject" name="subject" type="text">
@@ -104,6 +104,7 @@
             <input class="contactInput" id="mail" name="mail" type="text">
         </div>
         <br>
+        <div id="error"></div>
         <br>
         <div> <label for="message">MESSAGE</label>
              <br>
@@ -117,6 +118,7 @@
         <div id="submitContainer">
             <div id="submit">SUBMIT</div>
         </div>
+        <div id="validation"></div>
     </form>
   
     <footer>

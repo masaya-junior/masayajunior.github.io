@@ -231,8 +231,6 @@ a:hover {
 #newHeader {
     display: flex;
     align-items: center;
-    /* justify-content: center; */
-    /* border: 2px solid blue; */
     font-weight: 600;
     width: 32em;
     font-size: 1.7vh;
@@ -384,21 +382,20 @@ hr {
 .content {
     height: 56vh;
     width: 56vh;
-    /* border: 2px solid orange; */
     border-radius: .1vh;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     animation: fadein 2s;
-    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -webkit-animation: fadein 2s;
 }
 
 @keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
 }
-@-webkit-keyframes fadein { /* Safari and Chrome */
+@-webkit-keyframes fadein {
     from {
         opacity:0;
     }
@@ -430,8 +427,7 @@ hr {
 }
 
 .hoverable:hover .contentHover {
-    opacity: 1;  /* CHANGE IF FOR BLOCK ELEMENTS */
-    /* position: absolute; top: -7px; left: -10px; */
+    opacity: 1; 
     position: relative; top: 0vh; left: 0vh;
     display: flex;
     justify-content: center;
@@ -446,7 +442,6 @@ hr {
 .bottom {
     opacity: 0; transition: opacity .7s ease-in-out;
     height: 56vh;
-    /* position: absolute; */
     z-index: 2;
 
 }
