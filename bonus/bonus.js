@@ -9,3 +9,7 @@ document.getElementById('trigger').addEventListener('click', function(){
     document.querySelector('#spinningCircleTwo').classList.toggle('toggle')
     document.querySelector('#trigger').classList.toggle('toggle');
 })
+
+document.getElementById('gridSwitch').addEventListener('click', function(){
+    document.querySelector('.container').classList.toggle('toggle');
+})

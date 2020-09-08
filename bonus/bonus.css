@@ -210,6 +210,41 @@ body.warpFilter {
     }
 }
 
+.container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 21;
+    /* background-color: red; */
+    /* margin-top: -4.2vh; */
+    display: none;
+  
+}
+
+.container.toggle {
+    display: inherit;
+}
+
+.gridRow {
+    display: flex;
+}
+
+.gridUnit {
+    width: 12.4vh;
+    height: 12.4vh;
+    border: .1vh solid red;
+}
+
+#gridSwitch {
+    color: red;
+    position: fixed;
+    font-weight: 600;
+    transform:  translateY(73.8vh) translateX(34vh);
+    z-index: 25;
+}
+
 a {
     color: #213387;
     text-decoration: none;
@@ -218,8 +253,10 @@ a {
 }
 
 #bonusHeader {
-    margin-left: 68px;
-    font-size: 51.4px;
+    position: absolute;
+    margin-left: 11vh;
+    margin-top: 1vh;
+    font-size: 48.9px;
 }
 
 #bonusHeader.toggle {
@@ -249,11 +286,11 @@ a:hover {
 #code {
     position: absolute;
     bottom: 0;
-    left: 100;
+    left: 126.2vh;
     right: 0;
     top: 0;
     width: 75vh;
-    padding-top: 5vh;
+    padding-top: 3.2vh;
     font-size: .6em;
     font-weight: 100;
     display: flex;
@@ -302,9 +339,9 @@ a:hover {
     bottom: 0;
     left: 0;
     right: 0;
-    top: 80px;
-    height: 40%;
-    width: 78vh;
+    top: 12.5vh;
+    height: 38.2vh;
+    width: 76vh;
     filter: grayscale(100%) brightness(90%);
 }
 
@@ -313,15 +350,15 @@ a:hover {
     background-size: 90vh;
     position: absolute;
     /* transform: rotate(180deg); */
-    /* transform: scaleX(-1); */
+    transform: scaleX(-1);
     /* transform: scaleY(-1); */
     bottom: 0;
-    left: -40%;
+    left: -11vh;
     right: 0;
-    top: 80px;
+    top: 12.5vh;
     margin-left: 80px;
-    height: 40%;
-    width: 40%;
+    height: 38.2vh;
+    width: 12.5vh;
     filter: grayscale(100%) brightness(70%);
 }
 
@@ -342,8 +379,8 @@ a:hover {
     right: 0;
     top: 100;
     opacity:1;
-    height: 80px;
-    width: 80px;
+    height: 12.8vh;
+    width: 12.8vh;
     background-color: red;
     transition: 1s ease-in-out;
     z-index: 10;
@@ -395,8 +432,8 @@ a:hover {
 
 #circleContainer {
     position: absolute;
-    top: 487px;
-    right: -113px;
+    top: 69vh;
+    right: -100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -488,8 +525,8 @@ position: absolute;
 #newTriangleContainer {
     transform: rotate(45deg);
     position: absolute;
-    top: 1170px;
-    left: -460px;
+    top: 1221px;
+    left: -475px;
 }
 #newTriangle {
     width:2030px;
@@ -510,8 +547,8 @@ position: absolute;
 
 #structureBox {
     position: absolute;
-    top: 749px;
-    left: 554px;
+    top: 799px;
+    left: 539px;
     height: 1415px;
     width: 1200px;
     border: 5px solid red;
@@ -525,8 +562,8 @@ position: absolute;
     border-radius: 50%;
     height: 15px;
     width: 15px;
-    top: 734px;
-    left: 548px;
+    top: 784px;
+    left: 534px;
     box-shadow: outset 10px 10px 10px rgba(255, 255, 255, .8), outset -10px -10px 10px rgba(0, 0, 0, .8);
     animation: circleTravel 6s linear infinite;
     animation-delay: 1s;
@@ -549,7 +586,7 @@ position: absolute;
 
 #tobyhannaThree {
     position: absolute;
-    top: 1790px;
+    top: 1350px;
     left:178px;
     height: 800px;
     width: 200px;
@@ -564,7 +601,7 @@ position: absolute;
     filter: grayscale(100%);
     transition: 1s ease-in-out;
     opacity: 0;
-    z-index: 17;
+    z-index: 1;
 }
 
 #tobyhannaThree:hover {

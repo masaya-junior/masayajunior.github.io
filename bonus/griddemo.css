@@ -1,0 +1,24 @@
+.container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+    /* margin-top: -4.2vh; */
+  
+}
+
+.gridRow {
+    display: flex;
+}
+
+.gridUnit {
+    width: 12.4vh;
+    height: 12.4vh;
+    border: .1vh solid red;
+}
+
+/* #gridRowOne {
+    border: 2px solid green;
+} */
