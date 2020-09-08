@@ -241,6 +241,7 @@ body.warpFilter {
 #gridSwitch {
     color: red;
     position: fixed;
+    cursor: pointer;
     font-weight: 600;
     transform:  translateY(73.8vh) translateX(34vh);
     z-index: 25;
@@ -636,6 +637,7 @@ position: absolute;
 
 #trigger {
     position: absolute;
+    cursor: pointer;
     border-radius: 50%;
     font-size: 100px;
     font-weight: 600;
