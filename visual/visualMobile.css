@@ -433,6 +433,10 @@ hr {
     display: none;
 }
 
+#bonus {
+    display: none;
+}
+
 /* FOOTER */
 
 footer {

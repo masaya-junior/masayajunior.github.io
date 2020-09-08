@@ -362,8 +362,8 @@ aside.mobileOnly {
     opacity:0;
     /* top: 20;
     right: 0; */
-    height: 60px;
-    width: 60px;
+    height: 80px;
+    width: 80px;
     background-color: red;
     transition: 1s ease-in-out;
 }
