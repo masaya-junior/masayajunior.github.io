@@ -1,15 +1,15 @@
-@import url(https://github.com/GuillaumeHorikawa/GuillaumeHorikawa.github.io/blob/master/fonts/Gotham-Bold.ttf);
-@import url(https://github.com/GuillaumeHorikawa/GuillaumeHorikawa.github.io/blob/master/fonts/Gotham-Bold.woff);
-@import url(https://github.com/GuillaumeHorikawa/GuillaumeHorikawa.github.io/blob/master/fonts/Gotham-Bold.woff2);
-@import url(https://github.com/GuillaumeHorikawa/GuillaumeHorikawa.github.io/blob/master/fonts/Gotham-Book.ttf);
-@import url(https://github.com/GuillaumeHorikawa/GuillaumeHorikawa.github.io/blob/master/fonts/Gotham-Book.woff);
-@import url(https://github.com/GuillaumeHorikawa/GuillaumeHorikawa.github.io/blob/master/fonts/Gotham-Book.woff2);
-@import url(https://github.com/GuillaumeHorikawa/GuillaumeHorikawa.github.io/blob/master/fonts/Gotham-Medium.ttf);
-@import url(https://github.com/GuillaumeHorikawa/GuillaumeHorikawa.github.io/blob/master/fonts/Gotham-Medium.woff);
-@import url(https://github.com/GuillaumeHorikawa/GuillaumeHorikawa.github.io/blob/master/fonts/Gotham-Medium.woff2);
-@import url(https://github.com/GuillaumeHorikawa/GuillaumeHorikawa.github.io/blob/master/fonts/Gotham-Light.ttf);
-@import url(https://github.com/GuillaumeHorikawa/GuillaumeHorikawa.github.io/blob/master/fonts/Gotham-Light.woff);
-@import url(https://github.com/GuillaumeHorikawa/GuillaumeHorikawa.github.io/blob/master/fonts/Gotham-Light.woff2);
+@import url(https://github.com/masayajunior/masayajunior.github.io/blob/master/fonts/Gotham-Bold.ttf);
+@import url(https://github.com/masayajunior/masayajunior.github.io/blob/master/fonts/Gotham-Bold.woff);
+@import url(https://github.com/masayajunior/masayajunior.github.io/blob/master/fonts/Gotham-Bold.woff2);
+@import url(https://github.com/masayajunior/masayajunior.github.io/blob/master/fonts/Gotham-Book.ttf);
+@import url(https://github.com/masayajunior/masayajunior.github.io/blob/master/fonts/Gotham-Book.woff);
+@import url(https://github.com/masayajunior/masayajunior.github.io/blob/master/fonts/Gotham-Book.woff2);
+@import url(https://github.com/masayajunior/masayajunior.github.io/blob/master/fonts/Gotham-Medium.ttf);
+@import url(https://github.com/masayajunior/masayajunior.github.io/blob/master/fonts/Gotham-Medium.woff);
+@import url(https://github.com/masayajunior/masayajunior.github.io/blob/master/fonts/Gotham-Medium.woff2);
+@import url(https://github.com/masayajunior/masayajunior.github.io/blob/master/fonts/Gotham-Light.ttf);
+@import url(https://github.com/masayajunior/masayajunior.github.io/blob/master/fonts/Gotham-Light.woff);
+@import url(https://github.com/masayajunior/masayajunior.github.io/blob/master/fonts/Gotham-Light.woff2);
 /* @import url(https://github.com/codeforamerica/schoolselection/blob/master/public/fonts/Gotham-Bold.otf);
 @import url(https://github.com/codeforamerica/schoolselection/blob/master/public/fonts/Gotham-Book.otf);
 @import url(https://github.com/codeforamerica/schoolselection/blob/master/public/fonts/Gotham-Light.otf);
@@ -241,7 +241,7 @@ body.warpFilter {
 #gridSwitch {
     color: red;
     position: fixed;
-    cursor: pointer;
+    
     font-weight: 600;
     transform:  translateY(73.8vh) translateX(34vh);
     z-index: 25;

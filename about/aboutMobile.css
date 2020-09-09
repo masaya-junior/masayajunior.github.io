@@ -1,15 +1,15 @@
-@import url(https://github.com/GuillaumeHorikawa/GuillaumeHorikawa.github.io/blob/master/fonts/Gotham-Bold.ttf);
-@import url(https://github.com/GuillaumeHorikawa/GuillaumeHorikawa.github.io/blob/master/fonts/Gotham-Bold.woff);
-@import url(https://github.com/GuillaumeHorikawa/GuillaumeHorikawa.github.io/blob/master/fonts/Gotham-Bold.woff2);
-@import url(https://github.com/GuillaumeHorikawa/GuillaumeHorikawa.github.io/blob/master/fonts/Gotham-Book.ttf);
-@import url(https://github.com/GuillaumeHorikawa/GuillaumeHorikawa.github.io/blob/master/fonts/Gotham-Book.woff);
-@import url(https://github.com/GuillaumeHorikawa/GuillaumeHorikawa.github.io/blob/master/fonts/Gotham-Book.woff2);
-@import url(https://github.com/GuillaumeHorikawa/GuillaumeHorikawa.github.io/blob/master/fonts/Gotham-Medium.ttf);
-@import url(https://github.com/GuillaumeHorikawa/GuillaumeHorikawa.github.io/blob/master/fonts/Gotham-Medium.woff);
-@import url(https://github.com/GuillaumeHorikawa/GuillaumeHorikawa.github.io/blob/master/fonts/Gotham-Medium.woff2);
-@import url(https://github.com/GuillaumeHorikawa/GuillaumeHorikawa.github.io/blob/master/fonts/Gotham-Light.ttf);
-@import url(https://github.com/GuillaumeHorikawa/GuillaumeHorikawa.github.io/blob/master/fonts/Gotham-Light.woff);
-@import url(https://github.com/GuillaumeHorikawa/GuillaumeHorikawa.github.io/blob/master/fonts/Gotham-Light.woff2);
+@import url(https://github.com/masayajunior/masayajunior.github.io/blob/master/fonts/Gotham-Bold.ttf);
+@import url(https://github.com/masayajunior/masayajunior.github.io/blob/master/fonts/Gotham-Bold.woff);
+@import url(https://github.com/masayajunior/masayajunior.github.io/blob/master/fonts/Gotham-Bold.woff2);
+@import url(https://github.com/masayajunior/masayajunior.github.io/blob/master/fonts/Gotham-Book.ttf);
+@import url(https://github.com/masayajunior/masayajunior.github.io/blob/master/fonts/Gotham-Book.woff);
+@import url(https://github.com/masayajunior/masayajunior.github.io/blob/master/fonts/Gotham-Book.woff2);
+@import url(https://github.com/masayajunior/masayajunior.github.io/blob/master/fonts/Gotham-Medium.ttf);
+@import url(https://github.com/masayajunior/masayajunior.github.io/blob/master/fonts/Gotham-Medium.woff);
+@import url(https://github.com/masayajunior/masayajunior.github.io/blob/master/fonts/Gotham-Medium.woff2);
+@import url(https://github.com/masayajunior/masayajunior.github.io/blob/master/fonts/Gotham-Light.ttf);
+@import url(https://github.com/masayajunior/masayajunior.github.io/blob/master/fonts/Gotham-Light.woff);
+@import url(https://github.com/masayajunior/masayajunior.github.io/blob/master/fonts/Gotham-Light.woff2);
 /* @import url(https://github.com/codeforamerica/schoolselection/blob/master/public/fonts/Gotham-Bold.otf);
 @import url(https://github.com/codeforamerica/schoolselection/blob/master/public/fonts/Gotham-Book.otf);
 @import url(https://github.com/codeforamerica/schoolselection/blob/master/public/fonts/Gotham-Light.otf);
@@ -17,7 +17,7 @@
 @import url(https://github.com/codeforamerica/schoolselection/blob/master/public/fonts/Gotham-Thin.otf);
 @import url(https://github.com/codeforamerica/schoolselection/blob/master/public/fonts/Gotham-Ultra.otf); */
 
-@font-face {
+/* @font-face {
     font-family: 'Gotham';
     src: url('../fonts/Gotham-BlackItalic.woff2') format('woff2'),
         url('../fonts/Gotham-BlackItalic.woff') format('woff'),
@@ -175,7 +175,7 @@
     font-weight: normal;
     font-style: italic;
     font-display: swap;
-}
+} */
 
 body {
     display: block;
