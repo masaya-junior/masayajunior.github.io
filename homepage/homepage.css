@@ -359,6 +359,7 @@ aside.mobileOnly {
 
 /* //MAIN// */
 
+
 main {
     flex-basis: 50%;
     height: 56.2vw;
@@ -556,4 +557,5 @@ footer {
 footer p {
     margin-right: .5em;
 }
+
 
