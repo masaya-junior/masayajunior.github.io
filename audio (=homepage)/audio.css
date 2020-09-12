@@ -193,8 +193,8 @@ a {
 
 nav {
     margin: 2vh;
-    margin-left: 15vh;
-    margin-right: 15vh;
+    margin-left: 7vw;
+    margin-right: 7vw;
     height: 15vh;
     flex-basis: 25%;
     display: flex;
@@ -357,15 +357,19 @@ aside.mobileOnly {
 
 main {
     flex-basis: 50%;
-    height: 115vh;
+    height: 56.2vw;
     margin-top: 5vh;
     margin-bottom: 5vh;
-    margin-left: 15vh;
-    margin-right: 15vh;
+    margin-left: 7vw;
+    margin-right: 7vw;
+    /* margin-left: 15vh;
+    margin-right: 15vh; */
     font-size: 2vh;
     font-weight: 400;
     display: block;
     justify-content: space-between;
+
+    /* min-height:700px; */
 }
 
 hr {
@@ -376,26 +380,36 @@ hr {
     display: flex;
     justify-content: space-between;
     margin: 0vh;
-    padding-bottom: 1vh;
+    /* margin-left: -.5%; */
+    /* padding-bottom: 1.1vh; */
+    /* border: 2px solid red; */
+    height: 50%;
+    width: 100%;
 }
 
 .content {
-    height: 56vh;
-    width: 56vh;
+    /* height: 56vh;
+    width: 56vh; */
+    /* height: 370px;
+    width: 370px; */
+    /* height: 25.7vw;*/
+    width: 35%; 
+    /* border: 2px solid orange; */
     border-radius: .1vh;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     animation: fadein 2s;
-    -webkit-animation: fadein 2s;
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    margin: .3vw;
 }
 
 @keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
 }
-@-webkit-keyframes fadein {
+@-webkit-keyframes fadein { /* Safari and Chrome */
     from {
         opacity:0;
     }
@@ -427,7 +441,8 @@ hr {
 }
 
 .hoverable:hover .contentHover {
-    opacity: 1; 
+    opacity: 1;  /* CHANGE IF FOR BLOCK ELEMENTS */
+    /* position: absolute; top: -7px; left: -10px; */
     position: relative; top: 0vh; left: 0vh;
     display: flex;
     justify-content: center;
@@ -441,7 +456,9 @@ hr {
 
 .bottom {
     opacity: 0; transition: opacity .7s ease-in-out;
-    height: 56vh;
+    height: 100%;
+    width: 100%;
+    /* position: absolute; */
     z-index: 2;
 
 }
@@ -458,6 +475,8 @@ hr {
     ), url('../images/Compact\ Final.jpg');
     background-size: cover;
     background-position: center;
+    margin-top: 0;
+    margin-left: 0;
 }
 
 #contentTwo {background:
@@ -467,6 +486,7 @@ hr {
     ), url('../images/Cherry Pie.jpg');
     background-size: cover;
     background-position: center;
+    margin-top: 0;
 }
 
 #contentThree {background: linear-gradient(
@@ -476,6 +496,8 @@ hr {
     background-size: cover;
     background-position: center;
     display: flex;
+    margin-top: 0;
+    margin-right: 0;
 
 }
 
@@ -488,6 +510,8 @@ hr {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 0;
+    margin-left: 0;
 }
 
 #contentFive {background: linear-gradient(
@@ -496,6 +520,7 @@ hr {
   ), url('../images/MIX002notitle.jpg');
     background-size: cover;
     background-position: center;
+    margin-bottom: 0;
 }
 
 #contentSix {background: linear-gradient(
@@ -504,6 +529,8 @@ hr {
   ), url('../images/cranesinthesky.jpg');
     background-size: cover;
     background-position: center;
+    margin-bottom: 0;
+    margin-right: 0;
 }
 
 /* FOOTER */
@@ -516,8 +543,8 @@ footer {
     justify-content: center;
     text-align: center;
     margin: 2vh;
-    margin-left: 15vh;
-    margin-right: 15vh;
+    margin-left: 7vw;
+    margin-right: 7vw;
     padding-top: 2vh;
     font-size: 1.5vh;
 }
@@ -525,4 +552,5 @@ footer {
 footer p {
     margin-right: .5em;
 }
+
 

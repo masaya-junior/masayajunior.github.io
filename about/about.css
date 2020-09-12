@@ -194,8 +194,8 @@ a {
 
 nav {
     margin: 2vh;
-    margin-left: 15vh;
-    margin-right: 15vh;
+    margin-left: 7vw;
+    margin-right: 7vw;
     height: 15vh;
     flex-basis: 25%;
     display: flex;
@@ -357,13 +357,12 @@ aside.mobileOnly {
 main {
     flex-basis: 50%;
     height: 73vh;
-    margin: 2vh;
     margin-bottom: -1vh;
     margin-top: 5vh;
+    margin-left: 7vw;
+    margin-right: 7vw;
     display: flex;
     justify-content: space-between;
-    margin-left: 15vh;
-    margin-right: 15vh;
     font-weight: 200;
     font-size: 1.9vh;
 }
@@ -445,8 +444,8 @@ footer {
     justify-content: center;
     text-align: center;
     margin: 2vh;
-    margin-left: 15vh;
-    margin-right: 15vh;
+    margin-left: 7vw;
+    margin-right: 7vw;
     padding-top: 2vh;
     font-size: 1.5vh;
 }
